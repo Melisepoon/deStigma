@@ -7,7 +7,7 @@ what you need to have installed
 - node.js (from the website : https://nodejs.org/en/download/),
 to verify installation
 ``` node -v ```
-- npm install,
+- ```npm install```,
 to verify installation
 ``` npm -v ```
 - Visual studio code (to edit the codes)
