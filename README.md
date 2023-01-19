@@ -15,5 +15,5 @@ to verify installation
 
 Steps to run Application:
 1) Clone the GitHub repository with your local folder
-2) cd to the correcrt folder
+2) cd to the correct folder
 3) 
