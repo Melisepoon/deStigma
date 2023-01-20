@@ -32,7 +32,7 @@ export default function() {
       to: "/user-profile-lite",
     },
     {
-      title: "Errors",
+      title: "About Us",
       htmlBefore: '<i class="material-icons">error</i>',
       to: "/errors",
     }
