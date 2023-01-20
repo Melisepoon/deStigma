@@ -5,6 +5,7 @@ import { Redirect } from "react-router-dom";
 import { DefaultLayout } from "./layouts";
 
 // Route Views
+import LandingPage from "./views/LandingPage";
 import BlogOverview from "./views/BlogOverview";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";
@@ -14,6 +15,12 @@ import Tables from "./views/Tables";
 import BlogPosts from "./views/BlogPosts";
 
 export default [
+  // {
+  //   path: "/",
+  //   exact: true,
+  //   layout: DefaultLayout,
+  //   component: () => <Redirect to="/LandingPage" />
+  // },
   {
     path: "/",
     exact: true,

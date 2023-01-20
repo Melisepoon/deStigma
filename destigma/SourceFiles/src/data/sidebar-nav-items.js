@@ -1,13 +1,13 @@
 export default function() {
   return [
     {
-      title: "Blog Dashboard",
+      title: "My Dashboard",
       to: "/blog-overview",
       htmlBefore: '<i class="material-icons">edit</i>',
       htmlAfter: ""
     },
     {
-      title: "Blog Posts",
+      title: "Patient's Dashboard",
       htmlBefore: '<i class="material-icons">vertical_split</i>',
       to: "/blog-posts",
     },
@@ -27,7 +27,7 @@ export default function() {
       to: "/tables",
     },
     {
-      title: "User Profile",
+      title: "My Profile",
       htmlBefore: '<i class="material-icons">person</i>',
       to: "/user-profile-lite",
     },

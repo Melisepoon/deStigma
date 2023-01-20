@@ -31,26 +31,30 @@ const Tables = () => (
                     Last Name
                   </th>
                   <th scope="col" className="border-0">
+                    Age
+                  </th>
+                  <th scope="col" className="border-0">
                     Country
                   </th>
                   <th scope="col" className="border-0">
-                    City
+                    Guardian's Name
                   </th>
                   <th scope="col" className="border-0">
-                    Phone
+                    Contact
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>Ali</td>
-                  <td>Kerry</td>
-                  <td>Russian Federation</td>
-                  <td>Gdańsk</td>
-                  <td>107-0339</td>
+                  <td>Alice</td>
+                  <td>Tan</td>
+                  <td>3</td>
+                  <td>Singapore</td>
+                  <td>Peter Tan</td>
+                  <td>+65 9876-5432</td>
                 </tr>
-                <tr>
+                {/* <tr>
                   <td>2</td>
                   <td>Clark</td>
                   <td>Angela</td>
@@ -73,7 +77,7 @@ const Tables = () => (
                   <td>Liberia</td>
                   <td>Bad Hersfeld</td>
                   <td>1-848-473-7416</td>
-                </tr>
+                </tr> */}
               </tbody>
             </table>
           </CardBody>
@@ -82,7 +86,7 @@ const Tables = () => (
     </Row>
 
     {/* Default Dark Table */}
-    <Row>
+    {/* <Row>
       <Col>
         <Card small className="mb-4 overflow-hidden">
           <CardHeader className="bg-dark">
@@ -150,7 +154,7 @@ const Tables = () => (
           </CardBody>
         </Card>
       </Col>
-    </Row>
+    </Row> */}
   </Container>
 );
 
