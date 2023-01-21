@@ -7,7 +7,7 @@ export default function() {
       htmlAfter: ""
     },
     {
-      title: "Patient's Dashboard",
+      title: "Blog Posts",
       htmlBefore: '<i class="material-icons">vertical_split</i>',
       to: "/blog-posts",
     },
@@ -22,7 +22,7 @@ export default function() {
       to: "/components-overview",
     },
     {
-      title: "Tables",
+      title: "Patients",
       htmlBefore: '<i class="material-icons">table_chart</i>',
       to: "/tables",
     },

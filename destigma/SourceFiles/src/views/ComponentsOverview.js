@@ -43,7 +43,7 @@ const ComponentsOverview = () => (
       <Row noGutters className="page-header py-4">
         <PageTitle
           sm="4"
-          title="Forms & Components"
+          title="Forms & Compenents"
           subtitle="Overview"
           className="text-sm-left"
         />
