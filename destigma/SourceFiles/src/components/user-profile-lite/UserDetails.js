@@ -23,7 +23,7 @@ const UserDetails = ({ userDetails }) => (
       <h4 className="mb-0">{userDetails.name}</h4>
       <span className="text-muted d-block mb-2">{userDetails.jobTitle}</span>
       <Button pill outline size="sm" className="mb-2">
-        <i className="material-icons mr-1">person_add</i> Follow
+        <i className="material-icons mr-1">person_add</i> Psychiatric License
       </Button>
     </CardHeader>
     <ListGroup flush>
@@ -61,7 +61,7 @@ UserDetails.propTypes = {
 
 UserDetails.defaultProps = {
   userDetails: {
-    name: "Dr. miranda Bailey",
+    name: "Dr. Miranda Bailey",
     avatar: require("./../../images/avatars/miranda-bailey.jpg"),
     jobTitle: "Senior Diagnostician",
     performanceReportTitle: "Profile Completion",
