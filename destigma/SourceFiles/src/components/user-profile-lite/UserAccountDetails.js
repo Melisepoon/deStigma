@@ -32,7 +32,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feFirstName"
                     placeholder="First Name"
-                    value="Sierra"
+                    value="Dr. Miranda"
                     onChange={() => {}}
                   />
                 </Col>
@@ -42,7 +42,7 @@ const UserAccountDetails = ({ title }) => (
                   <FormInput
                     id="feLastName"
                     placeholder="Last Name"
-                    value="Brooks"
+                    value="Bailey"
                     onChange={() => {}}
                   />
                 </Col>
@@ -55,7 +55,7 @@ const UserAccountDetails = ({ title }) => (
                     type="email"
                     id="feEmail"
                     placeholder="Email Address"
-                    value="sierra@example.com"
+                    value="miranda002@phs.org"
                     onChange={() => {}}
                     autoComplete="email"
                   />
@@ -78,7 +78,7 @@ const UserAccountDetails = ({ title }) => (
                 <FormInput
                   id="feAddress"
                   placeholder="Address"
-                  value="1234 Main St."
+                  value="1234 Hospital Road, Health District"
                   onChange={() => {}}
                 />
               </FormGroup>
@@ -92,20 +92,25 @@ const UserAccountDetails = ({ title }) => (
                     onChange={() => {}}
                   />
                 </Col>
-                {/* State */}
+                {/* Organisation */}
                 <Col md="4" className="form-group">
-                  <label htmlFor="feInputState">State</label>
-                  <FormSelect id="feInputState">
-                    <option>Choose...</option>
+                  <label htmlFor="feOrganisation">Organisation</label>
+                  <FormSelect id="feOrganisation">
+                    <option>Choose your Organisation</option>
+                    <option>Autism Resource Centre</option>
+                    <option>St. Andrews Autism Centre</option>
+                    <option>Autism Association</option>
+                    <option>Institute of Mental Health</option>
+                    <option>Private Practice</option>
                     <option>...</option>
                   </FormSelect>
                 </Col>
-                {/* Zip Code */}
+                {/* Post Code */}
                 <Col md="2" className="form-group">
-                  <label htmlFor="feZipCode">Zip</label>
+                  <label htmlFor="feZipCode">PostCode</label>
                   <FormInput
-                    id="feZipCode"
-                    placeholder="Zip"
+                    id="fePostCode"
+                    placeholder="PostCode"
                     onChange={() => {}}
                   />
                 </Col>

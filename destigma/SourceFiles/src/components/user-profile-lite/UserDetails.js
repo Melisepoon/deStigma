@@ -61,14 +61,14 @@ UserDetails.propTypes = {
 
 UserDetails.defaultProps = {
   userDetails: {
-    name: "Sierra Brooks",
-    avatar: require("./../../images/avatars/0.jpg"),
-    jobTitle: "Project Manager",
-    performanceReportTitle: "Workload",
+    name: "Dr. miranda Bailey",
+    avatar: require("./../../images/avatars/miranda-bailey.jpg"),
+    jobTitle: "Senior Diagnostician",
+    performanceReportTitle: "Profile Completion",
     performanceReportValue: 74,
-    metaTitle: "Description",
+    metaTitle: "Qualifications",
     metaValue:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque, quidem, commodi soluta qui quae minima obcaecati quod dolorum sint alias, possimus illum assumenda eligendi cumque?"
+      "Masters of Clinical Psychology (NUS, Singapore) ; Bachelors of Pychology (NTU, Singapore)"
   }
 };
 

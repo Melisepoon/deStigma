@@ -58,7 +58,7 @@ MainFooter.defaultProps = {
       to: "#"
     },
     {
-      title: "Blog",
+      title: "Doctor's Note",
       to: "#"
     }
   ]
