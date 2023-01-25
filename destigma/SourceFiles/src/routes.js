@@ -9,7 +9,7 @@ import LandingPage from "./views/LandingPage";
 import BlogOverview from "./views/MyDashboard";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";
-import Errors from "./views/Errors";
+import Errors from "./views/About";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Patients";
 import BlogPosts from "./views/BlogPosts";
