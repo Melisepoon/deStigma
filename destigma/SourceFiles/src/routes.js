@@ -13,6 +13,7 @@ import Errors from "./views/Errors";
 import ComponentsOverview from "./views/ComponentsOverview";
 import Tables from "./views/Tables";
 import BlogPosts from "./views/BlogPosts";
+import Symptoms from "./views/Symptoms"
 
 export default [
   // {
@@ -61,5 +62,10 @@ export default [
     path: "/blog-posts",
     layout: DefaultLayout,
     component: BlogPosts
+  },
+  {
+    path: "/symptoms",
+    layout: DefaultLayout,
+    component: Symptoms
   }
 ];

@@ -27,6 +27,11 @@ export default function() {
       to: "/tables",
     },
     {
+      title: "Symptoms",
+      htmlBefore: '<i class="material-icons">error</i>',
+      to: "/symptoms",
+    },
+    {
       title: "My Profile",
       htmlBefore: '<i class="material-icons">person</i>',
       to: "/user-profile-lite",
