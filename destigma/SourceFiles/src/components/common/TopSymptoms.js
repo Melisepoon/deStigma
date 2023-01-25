@@ -74,37 +74,29 @@ TopReferrals.defaultProps = {
   title: "Top Symptoms Observed",
   referralData: [
     {
-      title: "Repetition of words",
+      title: "Repetition of Words",
       value: "35%"
     },
     {
-      title: "Stack Overflow",
-      value: "11,201"
+      title: "Intense Fear",
+      value: "22%"
     },
     {
-      title: "Hacker News",
-      value: "9,291"
+      title: "Excessive Anxiety",
+      value: "18%"
     },
     {
-      title: "Reddit",
-      value: "8,281"
+      title: "Stress",
+      value: "12%"
     },
     {
-      title: "The Next Web",
-      value: "7,128"
+      title: "Strong Language Used",
+      value: "8%"
     },
     {
-      title: "Tech Crunch",
-      value: "6,218"
+      title: "Others",
+      value: "5%"
     },
-    {
-      title: "YouTube",
-      value: "1,218"
-    },
-    {
-      title: "Adobe",
-      value: "1,171"
-    }
   ]
 };
 

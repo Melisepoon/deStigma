@@ -63,7 +63,7 @@ class UsersByDevice extends React.Component {
         <CardFooter className="border-top">
           <Row>
             <Col>
-              <FormSelect
+              {/* <FormSelect
                 size="sm"
                 value="last-week"
                 style={{ maxWidth: "130px" }}
@@ -73,12 +73,12 @@ class UsersByDevice extends React.Component {
                 <option value="today">Today</option>
                 <option value="last-month">Last Month</option>
                 <option value="last-year">Last Year</option>
-              </FormSelect>
+              </FormSelect> */}
             </Col>
-            <Col className="text-right view-report">
+            {/* <Col className="text-right view-report"> */}
               {/* eslint-disable-next-line */}
-              <a href="#">View full report &rarr;</a>
-            </Col>
+              {/* <a href="#">View full report &rarr;</a>
+            </Col> */}
           </Row>
         </CardFooter>
       </Card>
