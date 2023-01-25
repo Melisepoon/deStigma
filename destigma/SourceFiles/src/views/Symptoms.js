@@ -5,8 +5,9 @@ import { Container, Row, Col } from "shards-react";
 import PageTitle from "../components/common/PageTitle";
 import SmallStats from "../components/common/SmallStats";
 import PatientsActivity from "../components/blog/PatientsActivity";
-import Comments from "../components/blog/UploadComments";
-import Discussions from "../components/blog/Discussions";
+import UploadComments from "../components/blog/UploadComments";
+import Comments from "../components/blog/Comments";
+import RepetitiveWords from "../components/common/RepetitiveWords";
 
 const Symptoms = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
@@ -15,7 +16,7 @@ const Symptoms = ({ smallStats }) => (
       <PageTitle title="Symptoms" subtitle="Patients" className="text-sm-left mb-3" />
     </Row>
 
-    {/* Small Stats Blocks */}
+    {/* Small Stats Blocks */}s
     <Row>
       {smallStats.map((stats, idx) => (
         <Col className="col-lg mb-4" key={idx} {...stats.attrs}>
@@ -40,14 +41,18 @@ const Symptoms = ({ smallStats }) => (
         <PatientsActivity />
       </Col>
 
+      <Col lg="3" md="12" sm="12" className="mb-4">
+        <RepetitiveWords />
+      </Col>
+
       {/* Comments */}
       <Col lg="4" md="6" sm="12" className="mb-4">
-        <Comments />
+        <UploadComments />
       </Col>
 
       {/* Discussions */}
       <Col lg="5" md="12" sm="12" className="mb-4">
-        <Discussions />
+        <Comments />
       </Col>
     </Row>
   </Container>
