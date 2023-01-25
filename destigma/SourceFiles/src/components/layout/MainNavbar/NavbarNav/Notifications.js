@@ -28,7 +28,7 @@ export default class Notifications extends React.Component {
           <div className="nav-link-icon__wrapper">
             <i className="material-icons">&#xE7F4;</i>
             <Badge pill theme="danger">
-              2
+              1
             </Badge>
           </div>
         </NavLink>
@@ -39,19 +39,18 @@ export default class Notifications extends React.Component {
           <DropdownItem>
             <div className="notification__icon-wrapper">
               <div className="notification__icon">
-                <i className="material-icons">&#xE6E1;</i>
+                <i className="material-icons">&#xE190;</i>
               </div>
             </div>
             <div className="notification__content">
-              <span className="notification__category">Analytics</span>
+              <span className="notification__category">Appointments</span>
               <p>
-                Your website’s active users count increased by{" "}
-                <span className="text-success text-semibold">28%</span> in the
-                last week. Great job!
+                You have an appointment with{" "}
+                <span className="text-success text-semibold">Jerry Nathan Low</span> this Friday
               </p>
             </div>
           </DropdownItem>
-          <DropdownItem>
+          {/* <DropdownItem>
             <div className="notification__icon-wrapper">
               <div className="notification__icon">
                 <i className="material-icons">&#xE8D1;</i>
@@ -68,7 +67,7 @@ export default class Notifications extends React.Component {
           </DropdownItem>
           <DropdownItem className="notification__all text-center">
             View all Notifications
-          </DropdownItem>
+          </DropdownItem> */}
         </Collapse>
       </NavItem>
     );
