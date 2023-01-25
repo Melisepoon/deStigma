@@ -49,7 +49,7 @@ class About extends React.Component {
           //authorAvatar: require("../images/avatars/2.jpg"),
           title: "Technologies Used",
           body:
-            "It leverages Microsoft Azure Cognitive Services and Natural Language Processing to conduct speech analysis, as well as Attentional Convolutional Network to perform facial expression recognition.",
+            "We leveraged Microsoft Azure Cognitive Services and Natural Language Processing to conduct speech analysis, as well as Attentional Convolutional Network to perform facial expression recognition.",
           //date: "29 February 2019"
         },
         // {
