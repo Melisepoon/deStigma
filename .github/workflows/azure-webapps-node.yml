@@ -67,11 +67,7 @@ jobs:
     - name: Download artifact from build job
       uses: actions/download-artifact@v3
       with:
-        node-version: 18
-        cache: 'npm'
-        cache-dependency-path: subdir/package-lock.json
-    - run: npm ci
-    - run: npm test
+        name: node-app
 
     - name: 'Deploy to Azure WebApp'
       id: deploy-to-webapp
