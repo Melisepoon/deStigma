@@ -32,10 +32,10 @@ const TopReferrals = ({ title, referralData }) => (
       </ListGroup>
     </CardBody>
 
-    <CardFooter className="border-top">
-      <Row>
+    {/* <CardFooter className="border-top">
+      <Row> */}
         {/* Time Span */}
-        <Col>
+        {/* <Col>
           <FormSelect
             size="sm"
             value="last-week"
@@ -47,15 +47,15 @@ const TopReferrals = ({ title, referralData }) => (
             <option value="last-month">Last Month</option>
             <option value="last-year">Last Year</option>
           </FormSelect>
-        </Col>
+        </Col> */}
 
         {/* View Full Report */}
-        <Col className="text-right view-report">
+        {/* <Col className="text-right view-report"> */}
           {/* eslint-disable-next-line */}
-          <a href="#">Full report &rarr;</a>
-        </Col>
-      </Row>
-    </CardFooter>
+          {/* <a href="#">Full report &rarr;</a>
+        </Col> */}
+      {/* </Row>
+    </CardFooter> */}
   </Card>
 );
 
@@ -71,40 +71,40 @@ TopReferrals.propTypes = {
 };
 
 TopReferrals.defaultProps = {
-  title: "Top Referrals",
+  title: "Top Symptoms Observed",
   referralData: [
     {
-      title: "GitHub",
-      value: "19,291"
+      title: "Repetition of Words",
+      value: "35%"
     },
     {
-      title: "Stack Overflow",
-      value: "11,201"
+      title: "Intense Fear",
+      value: "22%"
     },
     {
-      title: "Hacker News",
-      value: "9,291"
+      title: "Excessive Anxiety",
+      value: "18%"
     },
     {
-      title: "Reddit",
-      value: "8,281"
+      title: "Stress",
+      value: "12%"
     },
     {
-      title: "The Next Web",
-      value: "7,128"
+      title: "Strong Language Used",
+      value: "8%"
     },
     {
-      title: "Tech Crunch",
-      value: "6,218"
+      title: "Others",
+      value: "5%"
     },
     {
-      title: "YouTube",
-      value: "1,218"
+      title: " ",
+      value: " "
     },
     {
-      title: "Adobe",
-      value: "1,171"
-    }
+      title: " ",
+      value: " "
+    },
   ]
 };
 

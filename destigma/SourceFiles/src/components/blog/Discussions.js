@@ -32,10 +32,10 @@ const Discussions = ({ title, discussions }) => (
               <a className="text-secondary" href={discussion.author.url}>
                 {discussion.author.name}
               </a>{" "}
-              on{" "}
+              {/* on{" "}
               <a className="text-secondary" href={discussion.post.url}>
                 {discussion.post.title}
-              </a>
+              </a> */}
               <span className="text-mutes">- {discussion.date}</span>
             </div>
 
@@ -43,7 +43,7 @@ const Discussions = ({ title, discussions }) => (
             <p className="m-0 my-1 mb-2 text-muted">{discussion.body}</p>
 
             {/* Content :: Actions */}
-            <div className="blog-comments__actions">
+            {/* <div className="blog-comments__actions">
               <ButtonGroup size="sm">
                 <Button theme="white">
                   <span className="text-success">
@@ -64,13 +64,13 @@ const Discussions = ({ title, discussions }) => (
                   Edit
                 </Button>
               </ButtonGroup>
-            </div>
+            </div> */}
           </div>
         </div>
       ))}
     </CardBody>
 
-    <CardFooter className="border-top">
+    {/* <CardFooter className="border-top">
       <Row>
         <Col className="text-center view-report">
           <Button theme="white" type="submit">
@@ -78,7 +78,7 @@ const Discussions = ({ title, discussions }) => (
           </Button>
         </Col>
       </Row>
-    </CardFooter>
+    </CardFooter> */}
   </Card>
 );
 
@@ -94,49 +94,49 @@ Discussions.propTypes = {
 };
 
 Discussions.defaultProps = {
-  title: "Discussions",
+  title: "Patient's Feedbacks",
   discussions: [
     {
       id: 1,
-      date: "3 days ago",
+      date: "15 days ago",
       author: {
         image: require("../../images/avatars/1.jpg"),
-        name: "John Doe",
+        name: "Pranav Balakrishnan",
         url: "#"
       },
-      post: {
-        title: "Hello World!",
-        url: "#"
-      },
-      body: "Well, the way they make shows is, they make one show ..."
+      // post: {
+      //   title: "Hello World!",
+      //   url: "#"
+      // },
+      body: "Dr. Bailey was terrific. Knowledgeable, sensitive, informative…"
     },
     {
       id: 2,
-      date: "4 days ago",
+      date: "30+ days ago",
       author: {
-        image: require("../../images/avatars/2.jpg"),
-        name: "John Doe",
+        image: require("../../images/avatars/Fatimah.jpg"),
+        name: "Fatimah Abdul Maidin",
         url: "#"
       },
-      post: {
-        title: "Hello World!",
-        url: "#"
-      },
-      body: "After the avalanche, it took us a week to climb out. Now..."
+      // post: {
+      //   title: "Hello World!",
+      //   url: "#"
+      // },
+      body: "Dr. Bailey did a great job with my first ever psychiatric exam. She explained everything to me in a very clear manner. She was also kind and friendly. All of the staff was great,they were helpful and patient."
     },
     {
       id: 3,
-      date: "5 days ago",
+      date: "30+ days ago",
       author: {
-        image: require("../../images/avatars/3.jpg"),
-        name: "John Doe",
+        image: require("../../images/avatars/Alice.jpg"),
+        name: "Alice Tan Xin Yi",
         url: "#"
       },
-      post: {
-        title: "Hello World!",
-        url: "#"
-      },
-      body: "My money's in that office, right? If she start giving me..."
+      // post: {
+      //   title: "Hello World!",
+      //   url: "#"
+      // },
+      body: "Dr. Bailey is incredible. Not only has she taken great care of my mental health, but also she is lovely to speak with at every appointment."
     }
   ]
 };

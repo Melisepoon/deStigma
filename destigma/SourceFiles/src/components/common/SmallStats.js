@@ -118,10 +118,10 @@ class SmallStats extends React.Component {
       variation !== "1" && "text-right align-items-center"
     );
 
-    const percentageClasses = classNames(
-      "stats-small__percentage",
-      `stats-small__percentage--${increase ? "increase" : "decrease"}`
-    );
+    // const percentageClasses = classNames(
+    //   "stats-small__percentage",
+    //   `stats-small__percentage--${increase ? "increase" : "decrease"}`
+    // );
 
     const canvasHeight = variation === "1" ? 120 : 60;
 
@@ -133,9 +133,9 @@ class SmallStats extends React.Component {
               <span className={labelClasses}>{label}</span>
               <h6 className={valueClasses}>{value}</h6>
             </div>
-            <div className={innerDataFieldClasses}>
+            {/* <div className={innerDataFieldClasses}>
               <span className={percentageClasses}>{percentage}</span>
-            </div>
+            </div> */}
           </div>
           <canvas
             height={canvasHeight}
@@ -189,7 +189,7 @@ SmallStats.propTypes = {
 
 SmallStats.defaultProps = {
   increase: true,
-  percentage: 0,
+  //percentage: 0,
   value: 0,
   label: "Label",
   chartOptions: Object.create(null),

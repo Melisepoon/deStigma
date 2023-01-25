@@ -55,15 +55,15 @@ class UsersByDevice extends React.Component {
         </CardHeader>
         <CardBody className="d-flex py-0">
           <canvas
-            height="220"
+            height="300"
             ref={this.canvasRef}
             className="blog-users-by-device m-auto"
           />
         </CardBody>
-        <CardFooter className="border-top">
+        {/* <CardFooter className="border-top">
           <Row>
-            <Col>
-              <FormSelect
+            <Col> */}
+              {/* <FormSelect
                 size="sm"
                 value="last-week"
                 style={{ maxWidth: "130px" }}
@@ -73,14 +73,14 @@ class UsersByDevice extends React.Component {
                 <option value="today">Today</option>
                 <option value="last-month">Last Month</option>
                 <option value="last-year">Last Year</option>
-              </FormSelect>
-            </Col>
-            <Col className="text-right view-report">
+              </FormSelect> */}
+            {/* </Col> */}
+            {/* <Col className="text-right view-report"> */}
               {/* eslint-disable-next-line */}
-              <a href="#">View full report &rarr;</a>
-            </Col>
-          </Row>
-        </CardFooter>
+              {/* <a href="#">View full report &rarr;</a>
+            </Col> */}
+          {/* </Row>
+        </CardFooter> */}
       </Card>
     );
   }
@@ -106,20 +106,22 @@ UsersByDevice.propTypes = {
 };
 
 UsersByDevice.defaultProps = {
-  title: "Users by device",
+  title: "Number of Patients with x Symptoms",
   chartData: {
     datasets: [
       {
         hoverBorderColor: "#ffffff",
-        data: [68.3, 24.2, 7.5],
+        data: [59, 24,8,6,3],
         backgroundColor: [
           "rgba(0,123,255,0.9)",
+          "rgba(0,123,255,0.7)",
           "rgba(0,123,255,0.5)",
-          "rgba(0,123,255,0.3)"
+          "rgba(0,123,255,0.3)",
+          "rgba(0,123,255,0.1)"
         ]
       }
     ],
-    labels: ["Desktop", "Tablet", "Mobile"]
+    labels: ["2", "3", "4","5","6"]
   }
 };
 
