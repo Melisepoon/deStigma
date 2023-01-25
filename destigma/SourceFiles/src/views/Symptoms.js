@@ -5,10 +5,8 @@ import { Container, Row, Col } from "shards-react";
 import PageTitle from "./../components/common/PageTitle";
 import SmallStats from "./../components/common/SmallStats";
 import PatientsActivity from "./../components/blog/PatientsActivity";
-import UsersByDevice from "./../components/blog/UsersByDevice";
 import Comments from "../components/blog/UploadComments";
-import Discussions from "./../components/blog/Comments";
-import TopReferrals from "./../components/common/TopReferrals";
+import Discussions from "./../components/blog/Discussions";
 
 const Symptoms = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
@@ -42,11 +40,6 @@ const Symptoms = ({ smallStats }) => (
         <PatientsActivity />
       </Col>
 
-      {/* Users by Device */}
-      <Col lg="4" md="6" sm="12" className="mb-4">
-        <UsersByDevice />
-      </Col>
-
       {/* Comments */}
       <Col lg="4" md="6" sm="12" className="mb-4">
         <Comments />
@@ -55,11 +48,6 @@ const Symptoms = ({ smallStats }) => (
       {/* Discussions */}
       <Col lg="5" md="12" sm="12" className="mb-4">
         <Discussions />
-      </Col>
-
-      {/* Top Referrals */}
-      <Col lg="3" md="12" sm="12" className="mb-4">
-        <TopReferrals />
       </Col>
     </Row>
   </Container>
