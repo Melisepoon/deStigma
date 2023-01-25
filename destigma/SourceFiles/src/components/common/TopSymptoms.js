@@ -32,8 +32,8 @@ const TopReferrals = ({ title, referralData }) => (
       </ListGroup>
     </CardBody>
 
-    <CardFooter className="border-top">
-      <Row>
+    {/* <CardFooter className="border-top">
+      <Row> */}
         {/* Time Span */}
         {/* <Col>
           <FormSelect
@@ -54,8 +54,8 @@ const TopReferrals = ({ title, referralData }) => (
           {/* eslint-disable-next-line */}
           {/* <a href="#">Full report &rarr;</a>
         </Col> */}
-      </Row>
-    </CardFooter>
+      {/* </Row>
+    </CardFooter> */}
   </Card>
 );
 
@@ -96,6 +96,14 @@ TopReferrals.defaultProps = {
     {
       title: "Others",
       value: "5%"
+    },
+    {
+      title: " ",
+      value: " "
+    },
+    {
+      title: " ",
+      value: " "
     },
   ]
 };

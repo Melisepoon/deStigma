@@ -5,7 +5,7 @@ import { Container, Row, Col } from "shards-react";
 import PageTitle from "../components/common/PageTitle";
 import SmallStats from "../components/common/SmallStats";
 import UsersOverview from "../components/blog/UsersOverview";
-import UsersByDevice from "../components/blog/UsersByDevice";
+import UsersByDevice from "../components/blog/NumberOfSymptoms";
 import NewDraft from "../components/blog/NewDraft";
 import Discussions from "../components/blog/Discussions";
 import TopReferrals from "../components/common/TopSymptoms";
@@ -38,8 +38,18 @@ const BlogOverview = ({ smallStats }) => (
 
     <Row>
       {/* Users Overview */}
-      <Col lg="8" md="12" sm="12" className="mb-4">
+      {/* <Col lg="8" md="12" sm="12" className="mb-4">
         <UsersOverview />
+      </Col> */}
+
+      {/* New Draft */}
+      {/* <Col lg="4" md="6" sm="12" className="mb-4">
+        <NewDraft />
+      </Col> */}
+
+      {/* Top Symptoms */}
+      <Col lg="3" md="12" sm="12" className="mb-4">
+        <TopReferrals />
       </Col>
 
       {/* Users by Device */}
@@ -47,19 +57,9 @@ const BlogOverview = ({ smallStats }) => (
         <UsersByDevice />
       </Col>
 
-      {/* New Draft */}
-      <Col lg="4" md="6" sm="12" className="mb-4">
-        <NewDraft />
-      </Col>
-
       {/* Discussions */}
       <Col lg="5" md="12" sm="12" className="mb-4">
         <Discussions />
-      </Col>
-
-      {/* Top Symptoms */}
-      <Col lg="3" md="12" sm="12" className="mb-4">
-        <TopReferrals />
       </Col>
     </Row>
   </Container>
@@ -76,7 +76,7 @@ BlogOverview.defaultProps = {
   smallStats: [
     {
       label: "Current Patients",
-      value: "90",
+      value: "100",
       //percentage: "4.7%",
       increase: true,
       chartLabels: [null, null, null, null, null, null, null],
