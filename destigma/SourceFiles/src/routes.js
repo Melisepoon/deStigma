@@ -6,21 +6,15 @@ import { DefaultLayout } from "./layouts";
 
 // Route Views
 import LandingPage from "./views/LandingPage";
-import BlogOverview from "./views/BlogOverview";
+import BlogOverview from "./views/MyDashboard";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";
 import Errors from "./views/Errors";
 import ComponentsOverview from "./views/ComponentsOverview";
-import Tables from "./views/Tables";
+import Tables from "./views/Patients";
 import BlogPosts from "./views/BlogPosts";
 
 export default [
-  // {
-  //   path: "/",
-  //   exact: true,
-  //   layout: DefaultLayout,
-  //   component: () => <Redirect to="/LandingPage" />
-  // },
   {
     path: "/",
     exact: true,

@@ -35,7 +35,7 @@ const TopReferrals = ({ title, referralData }) => (
     <CardFooter className="border-top">
       <Row>
         {/* Time Span */}
-        <Col>
+        {/* <Col>
           <FormSelect
             size="sm"
             value="last-week"
@@ -47,13 +47,13 @@ const TopReferrals = ({ title, referralData }) => (
             <option value="last-month">Last Month</option>
             <option value="last-year">Last Year</option>
           </FormSelect>
-        </Col>
+        </Col> */}
 
         {/* View Full Report */}
-        <Col className="text-right view-report">
+        {/* <Col className="text-right view-report"> */}
           {/* eslint-disable-next-line */}
-          <a href="#">Full report &rarr;</a>
-        </Col>
+          {/* <a href="#">Full report &rarr;</a>
+        </Col> */}
       </Row>
     </CardFooter>
   </Card>
@@ -71,11 +71,11 @@ TopReferrals.propTypes = {
 };
 
 TopReferrals.defaultProps = {
-  title: "Top Referrals",
+  title: "Top Symptoms Observed",
   referralData: [
     {
-      title: "GitHub",
-      value: "19,291"
+      title: "Repetition of words",
+      value: "35%"
     },
     {
       title: "Stack Overflow",
