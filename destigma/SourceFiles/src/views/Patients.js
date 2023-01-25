@@ -125,7 +125,7 @@ const Tables = () => (
                   <td>Male</td>
                   <td>9</td>
                   <td>Low Yik Heng</td>
-                  <td>+65 7288292</td>
+                  <td>+65 72882922</td>
                   <td><Button size="xs" theme="secondary" className="mb-2 mr-1">
                     To be monitored
                   </Button></td>
@@ -144,6 +144,86 @@ const Tables = () => (
                   <td>1-848-473-7416</td>
                   <td><Button size="xs" theme="success" className="mb-2 mr-1">
                     Stable
+                  </Button></td>
+                  <td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
+                </tr>
+                <tr>
+                  <td>73827</td>
+                  <td>24/09/2022</td>
+                  <td>Cindy Teh Rui Xuan</td>
+                  <td>Female</td>
+                  <td>11</td>
+                  <td>Teh Fong Yi</td>
+                  <td>+65 38292392</td>
+                  <td><Button size="xs" theme="success" className="mb-2 mr-1">
+                    Stable
+                  </Button></td>
+                  <td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
+                </tr>
+                <tr>
+                  <td>73828</td>
+                  <td>20/09/2022</td>
+                  <td>Lee Ziting</td>
+                  <td>Female</td>
+                  <td>8</td>
+                  <td>Lee Zhenyi</td>
+                  <td>+65 39292912</td>
+                  <td><Button size="xs" theme="secondary" className="mb-2 mr-1">
+                    To be monitored
+                  </Button></td>
+                  <td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
+                </tr>
+                <tr>
+                  <td>73829</td>
+                  <td>06/09/2022</td>
+                  <td>Veronica James</td>
+                  <td>Female</td>
+                  <td>16</td>
+                  <td>Richard James</td>
+                  <td>+65 39292912</td>
+                  <td><Button size="xs" theme="secondary" className="mb-2 mr-1">
+                    To be monitored
+                  </Button></td>
+                  <td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
+                </tr>
+                <tr>
+                  <td>73830</td>
+                  <td>06/09/2022</td>
+                  <td>Tran Phanh Anh</td>
+                  <td>Male</td>
+                  <td>10</td>
+                  <td>Tran Nghu Nghia</td>
+                  <td>+65 32204910</td>
+                  <td><Button size="xs" theme="danger" className="mb-2 mr-1">
+                    Unstable
+                  </Button></td>
+                  <td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
+                </tr>
+                <tr>
+                  <td>73831</td>
+                  <td>05/09/2022</td>
+                  <td>Kelly Ridzwan</td>
+                  <td>Female</td>
+                  <td>10</td>
+                  <td>Abdul Azmin Ridzwan</td>
+                  <td>+65 30238281</td>
+                  <td><Button size="xs" theme="danger" className="mb-2 mr-1">
+                    Unstable
                   </Button></td>
                   <td>
                     <Button outline size="xs" theme="primary" className="mb-2 mr-1">
