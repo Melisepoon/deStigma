@@ -26,11 +26,11 @@ export default function() {
       htmlBefore: '<i class="material-icons">table_chart</i>',
       to: "/tables",
     },
-    {
-      title: "Symptoms",
-      htmlBefore: '<i class="material-icons">error</i>',
-      to: "/symptoms",
-    },
+    // {
+    //   title: "Symptoms",
+    //   htmlBefore: '<i class="material-icons">error</i>',
+    //   to: "/symptoms",
+    // },
     {
       title: "My Profile",
       htmlBefore: '<i class="material-icons">person</i>',

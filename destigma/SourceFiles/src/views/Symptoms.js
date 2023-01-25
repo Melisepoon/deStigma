@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "shards-react";
 
-import PageTitle from "./../components/common/PageTitle";
-import SmallStats from "./../components/common/SmallStats";
-import PatientsActivity from "./../components/blog/PatientsActivity";
+import PageTitle from "../components/common/PageTitle";
+import SmallStats from "../components/common/SmallStats";
+import PatientsActivity from "../components/blog/PatientsActivity";
 import Comments from "../components/blog/UploadComments";
-import Discussions from "./../components/blog/Discussions";
+import Discussions from "../components/blog/Discussions";
 
 const Symptoms = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">

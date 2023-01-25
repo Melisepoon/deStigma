@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Card, CardHeader, CardBody } from "shards-react";
-
+import { Link } from 'react-router-dom';
 import PageTitle from "../components/common/PageTitle";
 
 const Tables = () => (
@@ -51,7 +51,7 @@ const Tables = () => (
                 </tr>
               </thead>
               <tbody>
-              <tr>
+                <tr>
                   <td>73821</td>
                   <td>10/01/2023</td>
                   <td>Pranav Balakrishnan</td>
@@ -63,9 +63,12 @@ const Tables = () => (
                     Stable
                   </Button></td>
                   <td>
-                  <Button outline size="xs" theme="primary" className="mb-2 mr-1">
-                    Details
-                  </Button></td>
+                    <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73822</td>
@@ -79,9 +82,9 @@ const Tables = () => (
                     To be monitored
                   </Button></td>
                   <td>
-                  <Button outline size="xs" theme="primary" className="mb-2 mr-1">
-                    Details
-                  </Button></td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
                 </tr>
                 <tr>
                   <td>73823</td>
@@ -95,9 +98,9 @@ const Tables = () => (
                     Stable
                   </Button></td>
                   <td>
-                  <Button outline size="xs" theme="primary" className="mb-2 mr-1">
-                    Details
-                  </Button></td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
                 </tr>
                 <tr>
                   <td>73824</td>
@@ -111,9 +114,9 @@ const Tables = () => (
                     Unstable
                   </Button></td>
                   <td>
-                  <Button outline size="xs" theme="primary" className="mb-2 mr-1">
-                    Details
-                  </Button></td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
                 </tr>
                 <tr>
                   <td>73825</td>
@@ -127,9 +130,9 @@ const Tables = () => (
                     To be monitored
                   </Button></td>
                   <td>
-                  <Button outline size="xs" theme="primary" className="mb-2 mr-1">
-                    Details
-                  </Button></td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
                 </tr>
                 <tr>
                   <td>73826</td>
@@ -143,9 +146,9 @@ const Tables = () => (
                     Stable
                   </Button></td>
                   <td>
-                  <Button outline size="xs" theme="primary" className="mb-2 mr-1">
-                    Details
-                  </Button></td>
+                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                      Details
+                    </Button></td>
                 </tr>
               </tbody>
             </table>
