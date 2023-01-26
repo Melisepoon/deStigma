@@ -3,7 +3,7 @@ import GoogleAnalytics from "react-ga";
 
 
 const withTracker = (WrappedComponent, options = {}) => {
-  GoogleAnalytics.initialize(process.env.REACT_APP_GAID || "UA-115105611-2");
+  //GoogleAnalytics.initialize(process.env.REACT_APP_GAID || "UA-115105611-2");
   const trackPage = page => {
     if (process.env.NODE_ENV !== "production") {
       return;
