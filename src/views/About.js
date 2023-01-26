@@ -5,9 +5,9 @@ import {
   Col,
   Card,
   CardBody,
-  CardFooter,
+  //CardFooter,
   Badge,
-  Button
+ // Button
 } from "shards-react";
 
 import PageTitle from "../components/common/PageTitle";
@@ -175,9 +175,9 @@ class About extends React.Component {
   render() {
     const {
       PostsListOne,
-      PostsListTwo,
-      PostsListThree,
-      PostsListFour
+     // PostsListTwo,
+     // PostsListThree,
+      //PostsListFour
     } = this.state;
 
     return (

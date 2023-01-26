@@ -5,7 +5,7 @@ import { Redirect } from "react-router-dom";
 import { DefaultLayout } from "./layouts";
 
 // Route Views
-import LandingPage from "./views/LandingPage";
+//import LandingPage from "./views/LandingPage";
 import BlogOverview from "./views/MyDashboard";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";

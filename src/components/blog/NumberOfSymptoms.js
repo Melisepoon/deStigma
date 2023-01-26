@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {
-  Row,
-  Col,
-  FormSelect,
+  //Row,
+  //Col,
+  //FormSelect,
   Card,
   CardHeader,
   CardBody,
-  CardFooter
+  //CardFooter
 } from "shards-react";
 
 import Chart from "../../utils/chart";

@@ -80,7 +80,8 @@ class SmallStats extends React.Component {
   }
 
   render() {
-    const { variation, label, value, percentage, increase } = this.props;
+    const { variation, label, value } = this.props;
+      //percentage, increase } = this.props;
 
     const cardClasses = classNames(
       "stats-small",
@@ -113,10 +114,10 @@ class SmallStats extends React.Component {
       variation === "1" ? "my-3" : "m-0"
     );
 
-    const innerDataFieldClasses = classNames(
-      "stats-small__data",
-      variation !== "1" && "text-right align-items-center"
-    );
+    // const innerDataFieldClasses = classNames(
+    //   "stats-small__data",
+    //   variation !== "1" && "text-right align-items-center"
+    // );
 
     // const percentageClasses = classNames(
     //   "stats-small__percentage",

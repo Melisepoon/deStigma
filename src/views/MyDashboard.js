@@ -4,9 +4,9 @@ import { Container, Row, Col } from "shards-react";
 
 import PageTitle from "../components/common/PageTitle";
 import SmallStats from "../components/common/SmallStats";
-import UsersOverview from "../components/blog/UsersOverview";
+//import UsersOverview from "../components/blog/UsersOverview";
 import UsersByDevice from "../components/blog/NumberOfSymptoms";
-import NewDraft from "../components/blog/NewDraft";
+//import NewDraft from "../components/blog/NewDraft";
 import Discussions from "../components/blog/Discussions";
 import TopReferrals from "../components/common/TopSymptoms";
 

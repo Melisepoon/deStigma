@@ -4,11 +4,11 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
-  ButtonGroup,
-  Button,
-  Row,
-  Col
+  // CardFooter,
+  // ButtonGroup,
+  // Button,
+  // Row,
+  // Col
 } from "shards-react";
 
 const Discussions = ({ title, discussions }) => (

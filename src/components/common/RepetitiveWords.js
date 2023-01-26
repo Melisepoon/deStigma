@@ -6,10 +6,10 @@ import {
   CardBody,
   ListGroup,
   ListGroupItem,
-  CardFooter,
-  Row,
-  Col,
-  FormSelect
+  // CardFooter,
+  // Row,
+  // Col,
+  // FormSelect
 } from "shards-react";
 
 const RepetitiveWords = ({ title, referralData }) => (
