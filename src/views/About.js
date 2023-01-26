@@ -214,7 +214,7 @@ class About extends React.Component {
                 </div>
                 <CardBody>
                   <h5 className="card-title">
-                    <a href="#" className="text-fiord-blue">
+                    <a href="/#" className="text-fiord-blue">
                       {post.title}
                     </a>
                   </h5>
