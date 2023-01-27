@@ -31,6 +31,9 @@ class PatientsActivity extends React.Component {
         scales: {
           xAxes: [
             {
+              name: 'Minutes',
+              display: true,
+              labelString: 'Minutes',
               gridLines: false,
               ticks: {
                 callback(tick, index) {
