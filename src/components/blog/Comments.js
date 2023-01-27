@@ -43,7 +43,7 @@ const Comments = ({ title, Comments }) => (
             <p className="m-0 my-1 mb-2 text-muted">{discussion.body}</p>
 
             {/* Content :: Actions */}
-            <div className="blog-comments__actions">
+            {/* <div className="blog-comments__actions">
               <ButtonGroup size="sm">
                 <Button theme="white">
                   <span className="text-success">
@@ -64,13 +64,13 @@ const Comments = ({ title, Comments }) => (
                   Edit
                 </Button>
               </ButtonGroup>
-            </div>
+            </div> */}
           </div>
         </div>
       ))}
     </CardBody>
 
-    <CardFooter className="border-top">
+    {/* <CardFooter className="border-top">
       <Row>
         <Col className="text-center view-report">
           <Button theme="white" type="submit">
@@ -78,7 +78,7 @@ const Comments = ({ title, Comments }) => (
           </Button>
         </Col>
       </Row>
-    </CardFooter>
+    </CardFooter> */}
   </Card>
 );
 

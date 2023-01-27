@@ -6,7 +6,7 @@ import { DefaultLayout } from "./layouts";
 
 // Route Views
 //import LandingPage from "./views/LandingPage";
-import BlogOverview from "./views/MyDashboard";
+import MyDashboard from "./views/MyDashboard";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";
 import Errors from "./views/About";
@@ -20,12 +20,12 @@ export default [
     path: "/",
     exact: true,
     layout: DefaultLayout,
-    component: () => <Redirect to="/blog-overview" />
+    component: () => <Redirect to="/MyDashboard" />
   },
   {
-    path: "/blog-overview",
+    path: "/MyDashboard",
     layout: DefaultLayout,
-    component: BlogOverview
+    component: MyDashboard
   },
   {
     path: "/user-profile-lite",
