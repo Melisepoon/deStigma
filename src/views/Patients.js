@@ -82,9 +82,12 @@ const Tables = () => (
                     To be monitored
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                    <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                    </td>
                 </tr>
                 <tr>
                   <td>73823</td>
@@ -98,9 +101,12 @@ const Tables = () => (
                     Stable
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73824</td>
@@ -114,9 +120,12 @@ const Tables = () => (
                     Unstable
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73825</td>
@@ -130,9 +139,12 @@ const Tables = () => (
                     To be monitored
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73826</td>
@@ -146,9 +158,12 @@ const Tables = () => (
                     Stable
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73827</td>
@@ -162,9 +177,12 @@ const Tables = () => (
                     Stable
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73828</td>
@@ -178,9 +196,12 @@ const Tables = () => (
                     To be monitored
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73829</td>
@@ -194,9 +215,12 @@ const Tables = () => (
                     To be monitored
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73830</td>
@@ -210,9 +234,12 @@ const Tables = () => (
                     Unstable
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
                 <tr>
                   <td>73831</td>
@@ -226,9 +253,12 @@ const Tables = () => (
                     Unstable
                   </Button></td>
                   <td>
-                    <Button outline size="xs" theme="primary" className="mb-2 mr-1">
+                  <div>
+                      <Link to = "/Symptoms">
+                      <Button outline size="xs" theme="primary" className="mb-2 mr-1">
                       Details
-                    </Button></td>
+                    </Button></Link></div>
+                  </td>
                 </tr>
               </tbody>
             </table>
