@@ -20,10 +20,10 @@ export default [
     path: "/",
     exact: true,
     layout: DefaultLayout,
-    component: () => <Redirect to="/MyDashboard" />
+    component: () => <Redirect to="/blog-overview" />
   },
   {
-    path: "/MyDashboard",
+    path: "/blog-overview",
     layout: DefaultLayout,
     component: MyDashboard
   },
