@@ -114,7 +114,7 @@ Discussions.defaultProps = {
       id: 2,
       date: "30+ days ago",
       author: {
-        image: require('../../images/avatars/Fatimah.jpg'),
+        image: require('../../images/avatars/2.jpg'),
         // image: require("../../images/avatars/Fatimah.jpg"),
         name: "Fatimah Abdul Maidin",
         url: "#"
