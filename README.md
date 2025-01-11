@@ -5,6 +5,8 @@ _This project was developed as part of a submission for Microsoft Imagine Cup 20
 ### Description of Project:
 deStigma is a technology initiative that aims to revolutionize the way Autism Spectrum Disorder (ASD) is diagnosed. We provide a data-driven solution to assist psychiatrists in making accurate diagnoses and follow-up treatment. Our symptoms-focused CV and NLP model, built on the Azure platform, analyzes facial expressions and speech patterns to accurately flag Autism Spectrum Disorder (ASD) symptoms. Our evaluation service creates value for patients and caregivers by providing a comprehensive report on the ASD symptoms and progress tracking.
 
+## The project video submission of higher quality can be found below:
+https://youtu.be/LK5HpeaEbeQ
 
 ### Dependencies required: 
 what you need to have installed
