@@ -36,8 +36,9 @@ to verify installation
 ### Awards 
 - Microsoft Imagine Cup 2023 Epic Challenge Asia Winner
 - Microsoft Imagine Cup 2023 World Finalist (Top - 8)
-  
-**Developed by: Poon Yan Xin Melise, Lai Fu Jun, Hardik Madan, Frederik Hanson **
+
+****
+**Developed by: Poon Yan Xin Melise, Lai Fu Jun, Hardik Madan, Frederik Hanson**
 
 ### References
 https://github.com/justinshenk/fer <br>
