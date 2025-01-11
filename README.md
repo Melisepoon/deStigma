@@ -9,7 +9,7 @@ deStigma is a technology initiative that aims to revolutionize the way Autism Sp
 https://youtu.be/LK5HpeaEbeQ
 
 ## Pitch Deck can be found at 
-[pitch](deStigma/destigma.pdf)
+[pitch deck for deStigma](deStigma.pdf)
 
 ### Dependencies required: 
 what you need to have installed
