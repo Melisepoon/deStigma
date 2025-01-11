@@ -32,3 +32,4 @@ to verify installation
 
 ### References
 https://github.com/justinshenk/fer <br>
+https://designrevision.com/downloads/shards-dashboard-pro-react/ <br>
